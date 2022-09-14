@@ -1,0 +1,64 @@
+.App {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 90px;
+    border: white dashed 1.5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 180px;
+}
+
+.like-dislike {
+    background: transparent;
+    border: none;
+    color: white;
+    /* font-size: 12px; */
+}
+
+img {
+    width: 340px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.add-movie {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+}
+
+.movie-name {
+    margin: 0;
+}
+
+.movie-summary {
+    margin-top: 0;
+}
+
+.movie {
+    width: 340px;
+    height: min-content;
+}
+
+.movie-spec {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-rating {
+    font-size: 18px;
+}
+
+.movielist {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
